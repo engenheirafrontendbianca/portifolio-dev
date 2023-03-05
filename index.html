@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfólio</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+
+       <header id="home">
+          <div class="img-wrapper">
+            <img src="./imagens/capa.png" alt="">
+          </div>
+          <div class="banner">
+            <h1>Front End Developer</h1>
+            <p>Bianca Fernandes Faria</p>
+            <a href="https://www.linkedin.com/in/bianca-f-1b22b6255/"><button class="btn">Saiba Mais</button></a>
+          </div>
+       </header>
+
+       <aside class="sidebar">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/bianca-f-1b22b6255/"><i class="fab fa-linkedin "></i></a>
+            <a href="https://github.com/engenheirafrontendbianca"><i class="fab fa-github-alt"></i></a>
+       </div>
+       </aside>
+       
+       <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+       </div>
+       <section class="sessao-conhecimentos" id="conhecimentos">
+        <div class="conhecimentos">
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>É uma linguagem de marcação. Protocolo de Transferência de Hipertexto, o protocolo de transferência de dados. </p>
+                </div>
+            </div>
+        </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Cascading Style Sheets (CSS) é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em uma linguagem de marcação, como HTML.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="conhecimentos">
+                    <div class="conhecimento">
+                        <div class="conhecimento-header">
+                            <i class="fas fa-pencil-alt"></i>
+                            <h3>Design</h3>
+                        </div>
+                        <div class="conhecimento-text">
+                            <p>Consiste em isolar complexidades, simplificar o código para futuras manutenções, trabalhar por partes e identificar pontos críticos de códigos.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="conhecimentos">
+                        <div class="conhecimento">
+                            <div class="conhecimento-header">
+                                <i class="fab fa-js"></i>
+                                <h3>Javascript</h3>
+                            </div>
+                            <div class="conhecimento-text">
+                                <p>É uma poderosa linguagem de programação que pode adicionar interatividade a um site. </p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="conhecimentos">
+                            <div class="conhecimento">
+                                <div class="conhecimento-header">
+                                    <i class="fab fa-bootstrap"></i>
+                                    <h3>Bootstrap</h3>
+                                </div>
+                                <div class="conhecimento-text">
+                                    <p>O Bootstrap trabalha com um sistema de grid 
+                                        (grade), onde construímos o layout a partir de 
+                                        linhas e colunas.</p>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="conhecimentos">
+                                <div class="conhecimento">
+                                    <div class="conhecimento-header">
+                                        <i class="fab fa-github"></i>
+                                        <h3>Git e GitHub</h3>
+                                    </div>
+                                    <div class="conhecimento-text">
+                                        <p>Git é um software usado para rastrear alterações em qualquer conjunto de arquivos. GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs, utilizando o Git como sistema de controle.</p>
+                                    </div>
+                                </div>
+                            </div>
+          <div class="conhecimento-img-wrapper">
+            <img src="./imagens/conhecimentos.webp" alt="">
+          </div>  
+        </div>
+       </section>
+
+       <section class="sessao-projetos" id="projetos">
+           <div class="sessao-header">
+            <h1>Projetos</h1>
+           </div>
+           <div class="projetos">
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="./imagens/proj1.jpg" alt="imagem do projeto todo"/>
+                </div>
+                <div class="card-info">
+                    <h2>Agenda</h2>
+                    <h3>Javascript</h3>
+                    <p>Agenda de contatos que é alimentada por um formulário que coleta nome e telefone com CSS aplicado.</p>
+                    <a href="https://bianca-projeto-agenda-contatos.vercel.app/"><button class="btn">Saiba Mais</button></a>
+                </div>
+            </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./imagens/proj2.jpg" alt="imagem do projeto Maratona"/>
+                    </div>
+                    <div class="card-info">
+                        <h2>DEV Store</h2>
+                        <h3>HTML,CSS</h3>
+                        <p>Criação de um website com layout responsivo de uma loja virtual.</p>
+                        <a href="https://dev-store-t5nm.vercel.app/"><button class="btn">Saiba Mais</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./imagens/proj3.jpg" alt="imagem do projeto Casa Bela"/>
+                    </div>
+                    <div class="card-info">
+                        <h2>Café</h2>
+                        <h3>HTML</h3>
+                        <p>Criação de website customizado utilizando diversos elementos, como: formulário, imagens, fontes costumizadas e diferentes cores de fundo e botões.</p>
+                        <a href="https://cafeautodabiquinha.vercel.app/"><button class="btn">Saiba Mais</button></a>
+                    </div>
+                </div>
+            </div>
+           </div>
+       </section>
+       
+       <footer>
+        <div class="footer-content">
+            <p>
+                Copyright &copy; 2022, ETECIA DS - Todos os direitos reservados 
+            </p>
+        </div>
+       </footer>
+       <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up" class="seta"></i>
+       </a>
+</body>
+<script src="./script.js"></script>
+</html>
